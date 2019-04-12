@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="all" parallel="methods">
+
+	<listeners>
+        <listener class-name="com.app.utils.ExtentReport"></listener>
+    </listeners>
+
+	<suite-files>
+		<suite-file path="AlertModelTestNG.xml"></suite-file>
+		<suite-file path="InputFormTestNG.xml"></suite-file>
+	</suite-files>
+</suite> 

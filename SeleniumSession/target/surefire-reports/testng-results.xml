@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="all" duration-ms="0" started-at="2019-04-12T13:02:59Z" finished-at="2019-04-12T13:02:59Z">
+    <groups>
+    </groups>
+  </suite> <!-- all -->
+  <suite name="Suite" duration-ms="6274" started-at="2019-04-12T13:02:51Z" finished-at="2019-04-12T13:02:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6274" started-at="2019-04-12T13:02:51Z" finished-at="2019-04-12T13:02:58Z">
+      <class name="com.app.testscripts.InputForm">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.testscripts.InputForm@2812cbfa]" name="setUp" is-config="true" duration-ms="32353" started-at="2019-04-12T18:31:44Z" finished-at="2019-04-12T18:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestAlert()[pri:0, instance:com.app.testscripts.InputForm@2812cbfa]" name="TestAlert" duration-ms="5885" started-at="2019-04-12T18:32:16Z" finished-at="2019-04-12T18:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAlert -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.app.testscripts.InputForm@2812cbfa]" name="afterMainMethod" is-config="true" duration-ms="1307" started-at="2019-04-12T18:32:22Z" finished-at="2019-04-12T18:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.app.testscripts.InputForm@2812cbfa]" name="setUp" is-config="true" duration-ms="27994" started-at="2019-04-12T18:32:23Z" finished-at="2019-04-12T18:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestAlert()[pri:0, instance:com.app.testscripts.InputForm@2812cbfa]" name="TestAlert" duration-ms="6272" started-at="2019-04-12T18:32:51Z" finished-at="2019-04-12T18:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAlert -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.app.testscripts.InputForm@2812cbfa]" name="afterMainMethod" is-config="true" duration-ms="1196" started-at="2019-04-12T18:32:58Z" finished-at="2019-04-12T18:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+      </class> <!-- com.app.testscripts.InputForm -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
