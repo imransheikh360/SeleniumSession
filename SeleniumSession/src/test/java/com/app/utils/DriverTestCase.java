@@ -41,7 +41,10 @@ public abstract class DriverTestCase {
 		
 		String driverType = propertyReader.readApplicationFile("BROWSER");		
 							
-		if (DriverType.Firefox.toString().equals(driverType)) {							
+		if (DriverType.Firefox.toString().equals(driverType)) {	
+			
+			String geckoDriverPath = "F:\\SeleniumSession\\SeleniumSession\\Drivers\\geckodriver.exe";
+			System.setProperty("webdriver.gecko.driver", geckoDriverPath);
 				driver = new FirefoxDriver();				
 			
 		} else if (DriverType.IE.toString().equals(driverType)) {
